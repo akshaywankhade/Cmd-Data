@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number=$1
+number=$8
 result=1
 count=1
 
