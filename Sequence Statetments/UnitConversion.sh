@@ -3,12 +3,12 @@
 read -p "Enter Length in feet " l
 read -p "Enter Width in feet " w
 
-#FEET TO METER
+#Feet to meter
 length=`echo "$l * 0.3048"|bc `
 width=`echo "$w * 0.3048"|bc`
 echo Plot is of $length x $width
 
-#METER TO ACRES
+#Meter to acres
 squareMeter=`echo "$len * $wed"|bc`
 acres=`echo "$squareMeter * 0.000247105"|bc`
 
