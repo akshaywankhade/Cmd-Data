@@ -4,26 +4,26 @@ read -p "Enter the Num:" day
 
 if [ $day -eq 1 ]
 then
-		printf "Sunday\n"
+	printf "Sunday\n"
 elif [ $day -eq 2 ]
 then
-		printf "Monday\n"
+	printf "Monday\n"
 elif [ $day -eq 3 ]
 then
-		printf "Thesday\n"
+	printf "Thesday\n"
 elif [ $day -eq 4 ]
 then
-		printf "Wednesday\n"
+	printf "Wednesday\n"
 elif [ $day -eq 5 ]
 then
-		printf "Thursday\n"
+	printf "Thursday\n"
 elif [ $day -eq 6 ]
 then
-		printf "Friday\n"
+	printf "Friday\n"
 elif [ $day -eq 7 ]
 then
-		printf "Saturday\n"
+	printf "Saturday\n"
 else
-		printf "Invalid input\n"
+	printf "Invalid input\n"
 fi
 
