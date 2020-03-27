@@ -6,7 +6,7 @@ ran3=$((100+RANDOM%900))
 ran4=$((100+RANDOM%900))
 ran5=$((100+RANDOM%900))
 
-#For Maximum
+#For maximum
 if [[ $ran1 -gt $ran2 ]] && [[ $ran1 -gt $ran3 ]] && [[ $ran1 -gt $ran4 ]] && [[ $ran1 -gt $ran5 ]]
 then
 	max=$ran1
@@ -24,7 +24,7 @@ then
 	max=$ran5
 fi
 
-#For Minimum
+#For minimum
 if [[ $ran1 -lt $ran2 ]] && [[ $ran1 -lt $ran3 ]] && [[ $ran1 -lt $ran4 ]] && [[ $ran1 -lt $ran5 ]]
 then
 	min=$ran1
