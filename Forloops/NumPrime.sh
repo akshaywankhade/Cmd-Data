@@ -10,7 +10,6 @@ do
 				(( count++ ))
 		fi
 done
-
 if [ $count -eq 2 ]
 then
 		printf "It is a prime Number\n"
