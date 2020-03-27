@@ -1,5 +1,4 @@
 #!/bin/bash -x
-
 read -p "Enter the Number : " number
 Harmonic=1
 result=1
