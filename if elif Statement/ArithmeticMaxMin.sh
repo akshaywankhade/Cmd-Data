@@ -10,7 +10,7 @@ Result2=$(( $a%$b+$c ))
 Result3=$(( $c+$a/$b ))
 Result4=$(( $a*$b+$c ))
 
-#Finding Max
+#Finding max
 if [[ $Result1 -gt $Result2 ]] && [[ $Result1 -gt $Result3 ]] && [[ $Result1 -gt $Result4 ]]
 then
 		max=$Result1
@@ -27,7 +27,7 @@ else
 		printf "Error"
 fi
 
-#Finding Min
+#Finding min
 if [[ $Result1 -lt $Result2 ]] && [[ $Result1 -lt $Result3 ]] && [[ $Result1 -lt $Result4 ]]
 then
 		min=$$Result1
