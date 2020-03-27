@@ -1,6 +1,6 @@
 #!/bin/bash -x
 	
-read -p "Enter the Year : "  year
+read -p "Enter the Year : " year
 res=0	
 if [ $(($year%4)) -eq 0 -a $(($year%100)) -ne 0 ]
 then
