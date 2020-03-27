@@ -3,6 +3,7 @@
 coin=$((RANDOM%2))
 HEAD=1
 TAIL=0
+
 if [ $coin -eq	$HEAD  ]
 then
 	printf "Heads\n"
