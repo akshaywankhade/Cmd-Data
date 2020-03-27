@@ -4,16 +4,16 @@ read -p "Enter the Num: " num
 
 if [ $num -ge 0 -a $num -le 9 ]
 then
-		printf "Unit\n"
+	printf "Unit\n"
 elif [ $num -ge 10 -a $num -le 99 ]
 then
-		printf "Ten\n"
+	printf "Ten\n"
 elif [ $num -ge 100 -a $num -le 999 ]
 then
-		printf "Hundred\n"
+	printf "Hundred\n"
 elif [ $num -ge 1000 -a $num -le 9999 ]
 then
-		printf"Thousand\n"
+	printf"Thousand\n"
 else
-		printf "Invalid Input"
+	printf "Invalid Input"
 fi
