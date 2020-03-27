@@ -2,17 +2,19 @@
 
 #Taking Input
 printf "Enter Three Numbers : \n" 
-for (( rowIndex=0;rowIndex<3;rowIndex++ ))
+for (( rowIndex=0; rowIndex<3; rowIndex++ ))
 do
 	read -p "Enter Number : " input
 	Array[rowIndex]=$input
 done
+
 #Addition
 sum=0
-for (( rowIndex=0;rowIndex<3;rowIndex++ ))
+for (( rowIndex=0; rowIndex<3; rowIndex++ ))
 do
 	sum=$(( $sum+${Array[rowIndex]} ))
 done
+
 #Output
 if (( $sum==0 ))
 then
