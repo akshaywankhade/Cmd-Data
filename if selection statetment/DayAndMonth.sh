@@ -10,7 +10,7 @@ JUNE=6
 
 if [ $month -ge $MARCH -a $month -le $JUNE ]
 then
-	#FOR MARCH
+	#For march
 	if [ $month -eq $MARCH ]
 	then
 		if [ $day -ge 20 -a $day -le 31 ]
@@ -20,7 +20,7 @@ then
 			printf "False\n"
 		fi
 
-	#FOR APRIL
+	#For April
 	elif [ $month -eq $APRIL ]
 	then
 		if [ $day -ge 1 -a $day -le 30 ]
@@ -30,7 +30,7 @@ then
 			printf "False\n"
 		fi
 
-	#FOR MAY
+	#For May
 	elif [ $month -eq $MAY ]
 	then
 		if [ $day -ge 1 -a $day -le 31 ]
@@ -40,7 +40,7 @@ then
 			printf "False\n"
 		fi
 
-	#FOR JUNE
+	#For June
 	elif [ $month -eq $JUNE ]
 	then
 		if [ $day -ge 1 -a $day -le 20 ]
