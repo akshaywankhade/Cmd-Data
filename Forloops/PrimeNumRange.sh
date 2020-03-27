@@ -1,5 +1,4 @@
 #!/bin/bash -x
-
 read -p "Enter the First Number : " first
 read -p "Enter the Last Number : " last
 
