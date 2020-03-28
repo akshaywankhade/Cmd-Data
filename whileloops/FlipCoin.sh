@@ -5,6 +5,7 @@ IS_TAIL=1
 winHead=0
 winTail=0
 counter=0
+
 while [ counter ]
 do
 	flipCoin=$(( RANDOM%2 ))
