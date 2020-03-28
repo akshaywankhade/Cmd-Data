@@ -3,7 +3,6 @@
 number=8
 result=1
 count=1
-
 while [[ $count -le $number ]]
 do
 	(( result=result*2 ))
