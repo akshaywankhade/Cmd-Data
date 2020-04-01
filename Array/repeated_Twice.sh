@@ -8,4 +8,5 @@ do
 		Array[(( counter++ ))]=$rowIndex
 	fi
 done
+
 echo ${Array[@]}
